@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,9 +32,16 @@ namespace PopinGUI_Form
         {
 
             // Получить ip адрес из textBox1
+            
             address = textBox1.Text;
 
-           
+            if (String.IsNullOrEmpty(address))
+            {
+                label1.Text = "Введите ip адрес";
+            }
+
+            else
+            {
                 // Пингуем хост
                 try
                 {
@@ -60,7 +67,8 @@ namespace PopinGUI_Form
                     label1.Text = "Некорректный ip адрес!";
 
                 }
-            
+
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
