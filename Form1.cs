@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,29 +33,34 @@ namespace PopinGUI_Form
 
             // Получить ip адрес из textBox1
             address = textBox1.Text;
-            // Пингуем хост
-            try
-            {
 
-                PingReply reply;
-                reply = pingSender.Send(address);
-                // Вывод данных в label1
-                if (reply.Status == IPStatus.Success)
+           
+                // Пингуем хост
+                try
                 {
-                    label1.Text = "Ping есть!";
+
+                    PingReply reply;
+                    reply = pingSender.Send(address);
+
+
+                    // Вывод данных в label1
+                    if (reply.Status == IPStatus.Success)
+                    {
+                        label1.Text = "Ping есть!";
+                    }
+                    else
+                    {
+                        label1.Text = "Ping нет!";
+                    }
+
                 }
-                else
+
+                catch (PingException)
                 {
-                    label1.Text = "Ping нет!";
+                    label1.Text = "Некорректный ip адрес!";
+
                 }
-
-            }
-
-            catch (PingException)
-            {
-                label1.Text = "Некорректный ip адрес!";
-
-            }
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
