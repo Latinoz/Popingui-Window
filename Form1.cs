@@ -57,7 +57,7 @@ namespace PopinGUI_Form
                     }
                     else
                     {
-                        label1.Text = "Ping нет!";
+                        label1.Text = "Ping'a нет!";
                     }
 
                 }
