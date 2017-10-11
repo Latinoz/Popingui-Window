@@ -1,0 +1,9 @@
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\bin\Release\PopinGUI_Form.exe.config
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\bin\Release\PopinGUI_Form.exe
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\bin\Release\PopinGUI_Form.pdb
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\obj\Release\PopinGUI_Form.Form1.resources
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\obj\Release\PopinGUI_Form.Form2.resources
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\obj\Release\PopinGUI_Form.Properties.Resources.resources
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\obj\Release\PopinGUI_Form.csproj.GenerateResource.Cache
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\obj\Release\PopinGUI_Form.exe
+C:\Users\mvargas\Documents\Visual Studio 2017\Projects\PopinGUI_Form\PopinGUI_Form\obj\Release\PopinGUI_Form.pdb
